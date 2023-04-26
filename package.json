@@ -1,0 +1,31 @@
+{
+  "name": "optimisation-project-data-sourcing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovrokunovic/optimisation-project-data-sourcing.git"
+  },
+  "author": "Lovro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovrokunovic/optimisation-project-data-sourcing/issues"
+  },
+  "homepage": "https://github.com/lovrokunovic/optimisation-project-data-sourcing#readme",
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "csv-parse": "^5.3.8",
+    "fs": "^0.0.1-security",
+    "prisma": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
